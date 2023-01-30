@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    height: 100vh;
+}
+
+
+/* HERO Section */
+.hero{
+    background-color: #1f2937;
+    padding: 10px 100px 100px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links{
+    display: flex;
+
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow:1;
+    
+    flex-shrink:1;
+    
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    
+}
+
+.hero-description{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
