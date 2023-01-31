@@ -83,13 +83,15 @@ li{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
+    gap:50px;
 }
 
 .info-header{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin: 40px;
+    
 }
 
 .info-content{
@@ -109,6 +111,11 @@ border: 5px solid #3882F6;
 border-radius: 10px;
 width:200px;
 height:200px;    
+}
+
+.card-text{
+    margin:5px 0px ;
+    width: 200px;
 }
 
 /* Quote section */
@@ -171,7 +178,7 @@ height:200px;
 .footer{
     text-align: center;
     background-color: #1f2937;
-    padding: 20px 100px 20px 100px;
+    padding: 30px ;
     color: #e5e7eb;
     
 }
